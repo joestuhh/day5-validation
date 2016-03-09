@@ -1,0 +1,27 @@
+html{
+	background: url('images/goat.gif');
+	background-size: cover;
+	box-sizing: border-box;
+	height: 100%;
+}
+body {
+	background: white;
+	width: 90%;
+	max-width: 320px;
+	margin: 10vh auto;
+	padding: 20px;
+	font-family: Calibri, arial, sans-serif;
+}
+input{
+	display:;
+	margin: .2em 0 .2em;
+	width: 100%;
+	display: block;
+	padding: .3em;
+}
+input[type=submit]{
+	background: coral;
+	border: none;
+	padding: .5em;
+	max-width: 200px;
+}

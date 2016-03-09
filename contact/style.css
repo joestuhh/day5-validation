@@ -1,0 +1,50 @@
+html {
+	height: 100%;
+	background: aqua;
+}
+
+body{
+	font-family: Calibri, arial, sans-serif;
+	width: 95%;
+	max-width: 400px;
+	margin: 1em auto;
+	background: #f2f2f2;
+	padding: 1em;
+
+}
+
+label{
+	display: block;
+	margin: 1em 0 .5em;
+}
+
+input, textarea, select{
+	display: block;
+	width: 100%;
+	padding: .3em;
+}
+input[type=checkbox]{
+	display: inline;
+	width: auto;
+	padding: 0;
+}
+
+/*feedback*/
+.message {
+	background-color: khaki;
+	padding: 1em;
+}
+
+.success .message{
+	background-color: lightgreen;
+}
+
+.error .message{
+	background-color: lightsalmon;
+}
+
+/* field errors */
+form .error{
+	background-color: lemonChiffon;
+	border: solid 1px salmon;
+}
